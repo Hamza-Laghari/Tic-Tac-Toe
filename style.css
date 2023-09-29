@@ -9,7 +9,7 @@ body {
 #startButton {
     background-color: #ff6b6b; /* Funky button color */
     color: #000000; /* Text color */
-    font-size: 2em; /* Font size */
+    font-size: 2rem; /* Font size */
     font-weight: bolder;
     padding: 10px 20px; /* Padding */
     border: none; /* Remove the border */
@@ -30,7 +30,7 @@ body {
 #reset{
     background-color: #6bd8ff; /* Funky button color */
     color: #000000; /* Text color */
-    font-size: 2em; /* Font size */
+    font-size: 2rem; /* Font size */
     font-weight: bolder;
     padding: 10px 20px; /* Padding */
     border: none; /* Remove the border */
@@ -49,7 +49,7 @@ body {
 h1 {
     color: #4274aa; /* Heading color */
     font-size: 5em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
     animation: bounce 1s infinite alternate; /* Animation properties */
 }
 
@@ -103,7 +103,7 @@ h1 {
 #winner {
     color: #e7df0c; /* Heading color */
     font-size: 5em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
     animation: bounce 1s infinite alternate; /* Animation properties */
 }
 @keyframes bounce {
