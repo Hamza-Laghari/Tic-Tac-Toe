@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #4BC3B5; /* Funky background color */
+    margin: 0;
+    padding: 0;
+}
+/* Add styles for the Start Game button */
+#startButton {
+    background-color: #ff6b6b; /* Funky button color */
+    color: #000000; /* Text color */
+    font-size: 2em; /* Font size */
+    font-weight: bolder;
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove the border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    position: absolute; /* Position the button */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the button precisely */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Add a cool hover animation */
+#startButton:hover {
+    background-color: #ff2e63; /* New button color on hover */
+    transform: translate(-50%, -50%) scale(1.1); /* Scale and translate on hover */
+}
+#reset{
+    background-color: #6bd8ff; /* Funky button color */
+    color: #000000; /* Text color */
+    font-size: 2em; /* Font size */
+    font-weight: bolder;
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove the border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    position: absolute; /* Position the button */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the button precisely */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+#reset:hover {
+    background-color: #5fbbdd; /* New button color on hover */
+    transform: translate(-50%, -50%) scale(1.1); /* Scale and translate on hover */
+}
+h1 {
+    color: #4274aa; /* Heading color */
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: bounce 1s infinite alternate; /* Animation properties */
+}
+
+/* Define the animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    border-radius: 20px; /* Curved corners */
+    /*background-color: #1c2c54;  Funky background color for the board */
+    padding: 20px;
+    justify-content: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #ff2e63;
+    border-radius: 30px;
+}
+
+.cell img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 60px;
+}
+
+#winner {
+    color: #e7df0c; /* Heading color */
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: bounce 1s infinite alternate; /* Animation properties */
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+/* Define the firework animation */
+
