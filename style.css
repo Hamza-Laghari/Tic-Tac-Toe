@@ -1,3 +1,7 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -47,9 +51,9 @@ body {
     transform: translate(-50%, -50%) scale(1.1); /* Scale and translate on hover */
 }
 h1 {
-    color: #4274aa; /* Heading color */
-    font-size: 5em;
-    font-family: Impact, fantasy;
+    color: #375f8a; /* Heading color */
+    font-size: 3.5rem;
+    font-family:'Pixelify Sans', cursive;
     animation: bounce 1s infinite alternate; /* Animation properties */
 }
 
@@ -63,6 +67,10 @@ h1 {
     }
 }
 
+@font-face {
+    font-family: 'FAMILY_NAME';
+    src: url(FONT_FILE_NAME.woff2) format('woff2');
+   }
 
 .container {
     display: flex;
@@ -102,8 +110,8 @@ h1 {
 
 #winner {
     color: #e7df0c; /* Heading color */
-    font-size: 5em;
-    font-family: Impact, fantasy;
+    font-size: 3.5em;
+    font-family: 'Pixelify Sans', cursive;
     animation: bounce 1s infinite alternate; /* Animation properties */
 }
 @keyframes bounce {
